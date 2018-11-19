@@ -1,0 +1,20 @@
+language: rust
+os:
+- windows
+- linux
+sudo: false
+cache: cargo
+script:
+- cargo build --release --verbose --all
+- cargo test --verbose --all
+deploy:
+  provider: releases
+  api_key:
+    secure: JgeTLqDz96rlg4QiB8OGa3AXcSBk0xMWAN2rS4wcl3l6F6NK4cPZlyE2HGlHT9+ztl2x4BhkPDmsG5KH0ZlK4s9jWaIlzFwqcrNJep9ZrLJX7/sdqnhp8CGCLvuGS3Rg2GOTJGlkCpocOCQS0ZASqLlLKSOUWRf0D/B5MTOLXLeRpDUwyeuPcJ8eg+YbufCSE3xj+qMSBEb/ukjyxfkv0U/jFGjuTvmaYdxVYVub0wYNLQB1E5fcMedKEjZ9lKxwuXF1luwhKA9ikS++GloJA5mogPrMsj42Xv5S5Sr+A1TI2wlwNffJsf5sQoHzvuPwbYg4+ClrFdRjoyyd87YyxzDzL90vYAr8tvEzYarIsWtiyIOGVoqCcq+fUgorys4nz5EwCGUwRVwmbwGKh+q1xbbx12R1d4ITzuue/j93feq3UxyFTX+VSN6LZID5UYhdPf+XoYkX+QaOjAMWAjZ7UM2yFeSqaw7QEiMSGF+AvQtesFS38deOgoDQsxLkBwbsbT8thJdXq4rCRm1QFr56NxugI7/nte3rZhojqccHFZWKMUYoO9yQuN2IGT1aYAD35t+EsiKTUyABfNpC6KpSJFl9rDYYloUfYRu0EO89MzfmD2ji0+R/6QP3c8ev8t6qo3QIOootWDaTi0ZjclremWX3+rnda6MRY4J6MNu0GMs=
+  file:
+  - target/release/csl_to_md
+  - target/release/csl_to_md.exe
+  skip_cleanup: true
+  on:
+    repo: Eonm/csl-to-markdown
+    tags: true

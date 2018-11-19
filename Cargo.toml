@@ -1,0 +1,20 @@
+[package]
+name = "csl_to_markdown"
+version = "0.1.0"
+authors = ["eonm <eon.mathis@gmail.com>"]
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = false
+debug-assertions = false
+codegen-units = 16
+panic = 'unwind'
+incremental = false
+overflow-checks = false
+
+[dependencies]
+quick-xml = "0.12.0"
+regex = "*"
+ 
