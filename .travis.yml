@@ -12,8 +12,8 @@ deploy:
   api_key:
     secure: bIgPer5UUwmo+EpDPiSd4K/f7eCIltxILgd69U1iMwhAh+q9gaKKOjjGB9AS1u8gwm5Ng63uOsNkRHuElqg/qtJNQBxNSEUzh+oPk98XqTlTsM1aw1ZhI09kflFsMJEdfFs8lKciwpYH17LU64HDuPTD+ZWuwCShoLt2zjKYCTIvjbXx7H23eYj0+t/S/aZfi/S0FaRGr/iqtfWCTs45hPgMGm5LpWgRGS1mZyC8wLe2pyefb2xa/wEX5m7qv2BGq5W9RrpY0gw5e60IoHlc0f5S/t/X4YwaCk486KZA9deiYQG6xH11Hwc79HhZ6puAsdjrQa3kRG/dCqzB9vm6H1oKfslACtPo4VPM00mK6sTsYl0TElUe9f2oI/+hIz96Rt0OjRakBKVDuvYDvzQcQve3UraAO0hN/5yyMLhk8n9Y3vPhvQq94twseRo/tPtl2gd9iEJxSiav6LhDUg2ALxifVZmNNo+tHibriH4MnTf7rxggtf+XpTAtzhc5vLhg/ahfC8sKbF+O2jgLN5GZuWh8jZG51jFpT5UYT3+kkX8FcleqLMYLe7zj7b5+M9XiPp1suVLBEl91KqtRWjXpx6b/bxWNATmGNz4Y5sV5+FJl2rRdn6dhIiu06c+ZhgXIVRW7NDBee3zDvTFK01s5WqQ9Ng3Fa4X2BF1RhiWpoFk=
   file:
-  - target/release/csl_to_md
-  - target/release/csl_to_md.exe
+  - target/release/csl_to_markdown
+  - target/release/csl_to_markdown.exe
   skip_cleanup: true
   on:
     repo: Eonm/csl-to-markdown
