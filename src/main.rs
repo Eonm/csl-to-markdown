@@ -19,6 +19,7 @@ use quick_xml::events::{BytesEnd, BytesStart, BytesText, Event};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
+    if args.len() < 2 { panic!("Please specify a csl file to process") };
     let xml_file_location = Path::new(&args[1]);
     let parsed_xml = parse_xml_file(xml_file_location);
     let result_string = String::from_utf8_lossy(&parsed_xml);
@@ -312,4 +313,3 @@ mod tests {
         assert_eq!(String::from_utf8_lossy(&result), String::from_utf8_lossy(expected_xml_output_string.as_bytes()));
     }
 }
-
