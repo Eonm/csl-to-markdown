@@ -1,7 +1,7 @@
 # csl-to-markdown
 ![GitHub language count](https://img.shields.io/badge/language-rust-blue.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.com/Eonm/csl-to-markdown.svg?branch=master)](https://travis-ci.com/Eonm/csl-to-markdown)
 
-Makes Zotero's bibliography export compatible with markdown
+Makes your Zotero's/Mendeley bibliography export compatible with markdown
 ## Requirements
 You need to install Rust [see](https://www.rust-lang.org/en-US/install.html) to test and build this code.
 
@@ -31,9 +31,17 @@ cargo build --release
 ./csl_to_markdown.exe input_file.csl > output_file.csl
 ```
 
-2- Add this new style to Zotero. [See how to install a citation style](https://www.zotero.org/support/styles#alternative_installation_methods) from a file.
+2- Add this new style to Zotero/Mendeley. 
 
-3- Use this new style to [create a bibliography](https://www.zotero.org/support/creating_bibliographies) compatible with markdown. Dont forget to select the good citation style before exporting your bibliography.
+**Zotero :** [See how to install a citation style](https://www.zotero.org/support/styles#alternative_installation_methods) from a file.
+
+**Mendeley :** View → Citation Style → More styles → Get More Styles → in "Download style field" type : ```file:///path_to_your/csl_file.csl```.
+
+3- Use this new style to create your bibliography.
+
+**Zotero :** See how to [create a bibliography](https://www.zotero.org/support/creating_bibliographies). Dont forget to select the good citation style before exporting your bibliography.
+
+**Mendeley :** See [How to copy & paste formatted citations anywhere](https://blog.mendeley.com/tag/copypaste/)
 
 ## Acknowledgement
 
