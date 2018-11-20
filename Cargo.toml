@@ -1,6 +1,6 @@
 [package]
 name = "csl_to_markdown"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["eonm <eon.mathis@gmail.com>"]
 
 [profile.release]
@@ -17,4 +17,4 @@ overflow-checks = false
 [dependencies]
 quick-xml = "0.12.0"
 regex = "*"
- 
+clap = "*"
