@@ -26,12 +26,14 @@ cargo build --release
 
 **On unix based system :**
 ```bash
-./csl_to_markdown input_file.csl > output_file.csl
+./csl_to_markdown -i input_file.csl -o output_file.csl
+./csl_to_markdown -i input_file.csl > output_file.csl
 ```
 
 **On windows :**
 ```dos
-./csl_to_markdown.exe input_file.csl > output_file.csl
+./csl_to_markdown.exe -i input_file.csl -o output_file.csl
+./csl_to_markdown.exe -i input_file.csl > output_file.csl
 ```
 
 2- Add this new style to Zotero/Mendeley. 
