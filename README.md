@@ -1,10 +1,10 @@
 # csl-to-markdown
 ![GitHub language count](https://img.shields.io/badge/language-rust-blue.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.com/Eonm/csl-to-markdown.svg?branch=master)](https://travis-ci.com/Eonm/csl-to-markdown) 
 
+Makes your Zotero's/Mendeley bibliography export compatible with markdown
 ## Download
 Download the last release [here](https://github.com/Eonm/csl-to-markdown/releases/latest).
 
-Makes your Zotero's/Mendeley bibliography export compatible with markdown
 ## Requirements
 You need to install Rust [see](https://www.rust-lang.org/en-US/install.html) to test and build this code.
 
