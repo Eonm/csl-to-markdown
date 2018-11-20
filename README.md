@@ -1,5 +1,8 @@
 # csl-to-markdown
-![GitHub language count](https://img.shields.io/badge/language-rust-blue.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.com/Eonm/csl-to-markdown.svg?branch=master)](https://travis-ci.com/Eonm/csl-to-markdown)
+![GitHub language count](https://img.shields.io/badge/language-rust-blue.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.com/Eonm/csl-to-markdown.svg?branch=master)](https://travis-ci.com/Eonm/csl-to-markdown) 
+
+## Download
+Download the last release [here](https://github.com/Eonm/csl-to-markdown/releases/latest).
 
 Makes your Zotero's/Mendeley bibliography export compatible with markdown
 ## Requirements
