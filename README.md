@@ -1,7 +1,7 @@
 # csl-to-markdown
 ![GitHub language count](https://img.shields.io/badge/language-rust-blue.svg) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg) [![Build Status](https://travis-ci.org/Eonm/csl-to-markdown.svg?branch=master)](https://travis-ci.org/Eonm/csl-to-markdown)
 
-Makes your Zotero's/Mendeley's bibliography export compatible with markdown
+Makes your Zotero's/Mendeley's bibliography export compatible with markdown.
 ## Download
 Download the last release [here](https://github.com/Eonm/csl-to-markdown/releases/latest).
 
@@ -31,7 +31,7 @@ Download the last release [here](https://github.com/Eonm/csl-to-markdown/release
 
 **Zotero :** See how to [create a bibliography](https://www.zotero.org/support/creating_bibliographies). Dont forget to select the good citation style before exporting your bibliography.
 
-**Mendeley :** See [How to copy & paste formatted citations anywhere](https://blog.mendeley.com/tag/copypaste/)
+**Mendeley :** See [How to copy & paste formatted citations anywhere](https://blog.mendeley.com/tag/copypaste/).
 
 ## Building and testing
 
@@ -52,7 +52,7 @@ cargo build --release
 
 ## Acknowledgement
 
-This sofwtare is inspired by this blog article : ["Markdown et Zotero"](https://zotero.hypotheses.org/2258#autres_usages)
+This sofwtare is inspired by this blog article : ["Markdown et Zotero"](https://zotero.hypotheses.org/2258#autres_usages).
 
 ## Licence
 
