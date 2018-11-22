@@ -5,21 +5,6 @@ Makes your Zotero's/Mendeley's bibliography export compatible with markdown
 ## Download
 Download the last release [here](https://github.com/Eonm/csl-to-markdown/releases/latest).
 
-## Requirements
-You need to install Rust [see](https://www.rust-lang.org/en-US/install.html) to test and build this code.
-
-## Test
-
-```bash
-cargo test
-```
-
-## Build
-
-```bash
-cargo build --release
-```
-
 ## Usage
 
 1- Make your csl file compatible with markdown. See the full list of styles [here](https://www.zotero.org/styles).
@@ -47,6 +32,23 @@ cargo build --release
 **Zotero :** See how to [create a bibliography](https://www.zotero.org/support/creating_bibliographies). Dont forget to select the good citation style before exporting your bibliography.
 
 **Mendeley :** See [How to copy & paste formatted citations anywhere](https://blog.mendeley.com/tag/copypaste/)
+
+## Building and testing
+
+### Requirements
+You need to install Rust [see](https://www.rust-lang.org/en-US/install.html) to test and build this code.
+
+### Test
+
+```bash
+cargo test
+```
+
+### Build
+
+```bash
+cargo build --release
+```
 
 ## Acknowledgement
 
